@@ -1,0 +1,154 @@
+* {
+  text-decoration: none;
+}
+
+ul,
+p {
+  padding: 0mm;
+}
+
+.body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main,
+.header {
+  background-color: #fff;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+}
+.colortext {
+  color: var(--blue-text);
+}
+.colorstudio {
+  color: var(--black-text);
+}
+.contacts a {
+  color: var(--grey-text);
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-nav,
+.nav-list,
+.contacts {
+  display: flex;
+}
+
+.contacts {
+  margin-left: 331px;
+}
+
+.header-nav {
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+  font-weight: bold;
+}
+.logo {
+  padding: 24px 0px;
+}
+.nav-list li {
+  margin-left: 50px;
+}
+
+.contacts li:last-child {
+  margin-left: 40px;
+}
+
+.main {
+  padding: 200px 0;
+  text-align: center;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.way {
+  background-color: #fff;
+  color: var(--black-text);
+  display: flex;
+  padding-top: 95px;
+  padding-left: 400px;
+}
+
+.way button {
+  border-radius: 4px;
+  height: 38px;
+  border: none;
+  font-weight: bold;
+}
+
+.container li {
+  margin-left: 10px;
+}
+
+.imgs1,
+.imgs2,
+.imgs3 {
+  display: flex;
+}
+.imgs2 {
+  padding: 30px 0px 30px 0px;
+}
+
+.button1 {
+  width: 128px;
+}
+
+.button2 {
+  width: 145px;
+}
+
+.button3 {
+  width: 103px;
+}
+
+.button4 {
+  width: 130px;
+}
+
+.all {
+  background-color: rgba(33, 150, 243, 1);
+  color: var(--white-text);
+  width: 73px;
+}
+.images {
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+
+.images li {
+  margin-left: 30px;
+}
+.images h2 {
+  color: var(--black-text);
+  padding: 20px 0px 4px 0px;
+  font-size: 18px;
+}
+.images p {
+  color: var(--grey-text);
+}
+.footer {
+  background-color: rgba(47, 48, 58, 1);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  /* width: 1600px; */
+}
+.address {
+  color: var(--white-text);
+  margin-top: 20px;
+}
+.footer a {
+  color: var(--grey-text-op60);
+}
+
+.footer li {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,190 @@
+* {
+  text-decoration: none;
+}
+ul,
+p {
+  padding: 0mm;
+}
+.colortext {
+  color: var(--blue-text);
+}
+.colorstudio {
+  color: var(--black-text);
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+}
+
+.studio {
+  color: #2196f3;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-nav,
+.nav-list,
+.contacts-list {
+  display: flex;
+}
+
+.contacts-list {
+  margin-left: 331px;
+}
+
+.header-nav {
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+.logo {
+  padding: 24px 0px;
+}
+.nav-list li {
+  margin-left: 50px;
+}
+
+.contacts-list li:last-child {
+  margin-left: 40px;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 1);
+}
+.tel {
+  color: var(--grey-text);
+}
+.main {
+  background-color: rgba(47, 48, 58, 1);
+  padding: 200px 0;
+  text-align: center;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.title {
+  color: var(--white-text);
+  font-size: 44px;
+  text-transform: uppercase;
+}
+.service {
+  background-color: rgba(33, 150, 243, 1);
+  color: var(--white-text);
+  padding: 10px 32px;
+  margin-top: 30px;
+  border: none;
+}
+
+.about .wwc {
+  display: flex;
+}
+
+.wwc li {
+  margin-left: 30px;
+}
+
+.about {
+  background-color: #fff;
+}
+
+.wwc h3 {
+  margin-top: 95px;
+  color: #212121;
+  font-weight: bold;
+}
+
+.wwc p {
+  color: var(--grey-text);
+  margin-top: 10px;
+}
+.section {
+  background-color: #fff;
+}
+
+.section h2 {
+  text-align: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-top: 94px;
+  font-size: 36px;
+}
+
+.section ul {
+  display: flex;
+  margin-top: 50px;
+}
+
+.section li {
+  margin-left: 30px;
+}
+
+.team {
+  background-color: rgba(245, 244, 250, 1);
+  padding-bottom: 94px;
+}
+.team li {
+  background-color: rgba(255, 255, 255, 1);
+  margin-left: 30px;
+}
+
+.name {
+  text-align: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-top: 94px;
+  font-size: 36px;
+}
+
+.team h4 {
+  color: var(--black-text);
+  padding: 30px 60px 10px 60px;
+  font-size: 16px;
+}
+
+.team p {
+  color: var(--grey-text);
+}
+.one {
+  padding: 0px 70px 30px 70px;
+}
+
+.two {
+  padding: 0px 62px 30px 61px;
+}
+
+.three {
+  padding: 0px 97px 30px 97px;
+}
+
+.four {
+  padding: 0px 92px 30px 91px;
+}
+
+.team ul {
+  display: flex;
+  margin-top: 50px;
+}
+
+.footer {
+  background-color: rgba(47, 48, 58, 1);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.adress {
+  color: var(--white-text);
+  margin-top: 20px;
+}
+.footer a {
+  color: var(--grey-text-op60);
+}
+
+.footer li {
+  margin-bottom: 10px;
+}

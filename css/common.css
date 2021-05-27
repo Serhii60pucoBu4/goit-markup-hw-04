@@ -71,6 +71,7 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   display: flex;
+  border-bottom: 1px solid #ececec;
 }
 
 .page-header .list {
@@ -233,9 +234,11 @@ a,
 .item-icon {
   display: flex;
   align-items: center;
+  height: 120px;
   background-color: var(--bcg-button-color);
-  padding: 25px 100px;
   margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 .list.advantages .icon {
@@ -392,9 +395,9 @@ a,
 }
 
 /*===Clients section=== */
-.section-clients .container {
-  padding-top: 98px;
-  padding-bottom: 92px;
+.section-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
 }
